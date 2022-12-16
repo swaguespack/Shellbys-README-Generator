@@ -43,11 +43,22 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, err => {
+        if(err){
+            return console.log(err);
+        }
+        console.log("Your README file has been generated!")
+    });
+}
+
+const writeFileAsync = util.promisfy(writeToFile);
 
 // TODO: Create a function to initialize app
-function init() {
+async function init() {
     return inquirer.createPromptModule(questions)
+    .then((response)) =>
+
     
 }
 
