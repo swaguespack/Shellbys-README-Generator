@@ -1,7 +1,10 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
+const util = require('util');
 const markdown = require("./utils/generateMarkdown");
+const generateMarkdown = require('./utils/generateMarkdown');
+
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -39,6 +42,17 @@ const questions = [
         type: 'input',
         message: 'What licenses are required?',
         name: 'licenses',
+        choices: licenses
+    },
+    {
+        type: 'input',
+        message: 'Enter your github username',
+        name: 'username'
+    },
+    {
+        type: 'input',
+        message: 'Enter your email address',
+        name:'email',
     }
 ];
 
@@ -52,23 +66,15 @@ function writeToFile(fileName, data) {
     });
 }
 
-const writeFileAsync = util.promisfy(writeToFile);
+const writeFileAsync = util.promisify(writeToFile);
 
 // TODO: Create a function to initialize app
-async function init() {
-    try{
-        const responses = await inquirer.prompt(questions);
-        console.log("Your responses: ", responses);
-    
-        await writeFileAsync('exampleREADME.md',markdown);
-    }
+function init() {
 
-    catch(error){
-        console.log(error);
-    }
+    inquirer.createPromptModule(questions)
+    .then (responses => writeToFile(generateMarkdown(responses)))
+}
 
-    
-};
 
 // Function call to initialize app
 init();
