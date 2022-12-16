@@ -4,8 +4,9 @@ function renderLicenseBadge(license) {
   let badge = "";
 
   if(license != "None"){
-    badge = ""
+    badge = "![License Badge](https://shields.io/badge/license-" + license + "-green)";
   }
+  return badge;
 }
 
 // TODO: Create a function that returns the license link
@@ -50,7 +51,37 @@ function renderLicenseSection(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
+
   return `# ${data.title}
+  
+  ##Description
+  ${data.description}
+
+  ${renderLicenseBadge}
+
+
+  ##Table of Contents
+
+
+  ##Installation
+  ${data.installation}
+
+  ##Usage
+  ${data.usage}
+
+  ##License
+  ${data.licenses}
+  ${renderLicenseSection}
+
+
+  ##Contributing
+  ${data.contributing}
+
+  ##Tests
+  ${data.tests}
+
+  ##Questions
+
 
 `;
 }

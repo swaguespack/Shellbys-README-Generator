@@ -1,8 +1,6 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
-const util = require('util');
-const markdown = require("./utils/generateMarkdown");
 const generateMarkdown = require('./utils/generateMarkdown');
 
 
@@ -41,7 +39,7 @@ const questions = [
     {
         type: 'input',
         message: 'What licenses are required?',
-        name: 'licenses',
+        name: 'license',
         choices: licenses
     },
     {
@@ -72,7 +70,7 @@ function writeToFile(data) {
 function init() {
 
     inquirer.createPromptModule(questions)
-    .then (responses => writeToFile(generateMarkdown(responses)))
+    .then (data => writeToFile(generateMarkdown(data)))
 }
 
 
