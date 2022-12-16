@@ -56,11 +56,19 @@ const writeFileAsync = util.promisfy(writeToFile);
 
 // TODO: Create a function to initialize app
 async function init() {
-    return inquirer.createPromptModule(questions)
-    .then((response)) =>
+    try{
+        const responses = await inquirer.prompt(questions);
+        console.log("Your responses: ", responses);
+    
+        await writeFileAsync('exampleREADME.md',markdown);
+    }
+
+    catch(error){
+        console.log(error);
+    }
 
     
-}
+};
 
 // Function call to initialize app
 init();
