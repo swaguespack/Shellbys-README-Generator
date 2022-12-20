@@ -1,7 +1,10 @@
-# This is my title
+# Title of Project
   
   ##Description
-  this is my project description
+  
+
+  this is the description;
+
 
   ![License Badge](https://shields.io/badge/license-Apache-green)
 
@@ -10,24 +13,42 @@
 
 
   ##Installation
-  this is how you install
+  
+
+  installation process
 
   ##Usage
-  this is how the project will be used
+  
+
+  this is how it will be used ;
 
   ##License
+  
+
   undefined
   ## License
-See https://mit-https://www.apache.org/licenses/LICENSE-2.0.html.org/for more information on this license
+See https://mit-https://www.apache.org/licenses/LICENSE-2.0.html.org/ for more information on this license
 
 
 
   ##Contributing
-  these are my contributors
+  
+
+  these are the contributors;
 
   ##Tests
-  this is how you test the process
+  
+
+  this is the test process;
 
   ##Questions
+  
+
+  You can find me at https://github.com/swaguespack on Github";
+  
+
+  Please email me at shellby.miller@gmail.com if you have questions.
+  
+
 
 

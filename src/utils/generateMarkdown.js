@@ -16,7 +16,7 @@ function renderLicenseLink(license) {
 
   switch(license){
     case "Apache":
-      renderLicenseLink = "https://mit-https://www.apache.org/licenses/LICENSE-2.0.html.org/";
+      renderLicenseLink = "https://www.apache.org/licenses/LICENSE-2.0.html.org/";
       break;
     case "PostgreSQL":
       renderLicenseLink = "https://opensource.org/licenses/PostgreSQL";
@@ -55,8 +55,9 @@ function generateMarkdown(data) {
   return `# ${data.title}
   
   ##Description
-  ${data.description} + "\n";
-
+  \n
+  ${data.description}
+\n
   ${renderLicenseBadge(data.license)}
 
 
@@ -64,25 +65,33 @@ function generateMarkdown(data) {
 
 
   ##Installation
-  ${data.installation} + "\n";
+  \n
+  ${data.installation}
 
   ##Usage
-  ${data.usage} + "\n";
+  \n
+  ${data.usage} 
 
   ##License
-  ${data.licenses} + "\n";
+  \n
+  ${data.licenses}
   ${renderLicenseSection(data.license)}
 
 
   ##Contributing
-  ${data.contributing} + "\n";
+  \n
+  ${data.contributing}
 
   ##Tests
-  ${data.tests} + "\n";
+  \n
+  ${data.tests}
 
   ##Questions
-  "You can find me at (https://github.com/" + ${data.username} + ") on Github\n";
-  "Please email me at " + ${data.email} + " if you have questions.\n"
+  \n
+  You can find me at https://github.com/${data.username} on Github"
+  \n
+  Please email me at ${data.email} if you have questions.
+  \n
 
 
 `;
