@@ -44,7 +44,7 @@ function renderLicenseSection(license) {
 
   if (license != "None"){
     licenseSection += "## License\n"
-    licenseSection += "See " + renderLicenseLink(license) + "for more information on this license\n"
+    licenseSection += "See " + renderLicenseLink(license) + " for more information on this license\n"
   }
   return licenseSection;
 }
@@ -55,7 +55,7 @@ function generateMarkdown(data) {
   return `# ${data.title}
   
   ##Description
-  ${data.description}
+  ${data.description} + "\n";
 
   ${renderLicenseBadge(data.license)}
 
@@ -64,23 +64,25 @@ function generateMarkdown(data) {
 
 
   ##Installation
-  ${data.installation}
+  ${data.installation} + "\n";
 
   ##Usage
-  ${data.usage}
+  ${data.usage} + "\n";
 
   ##License
-  ${data.licenses}
+  ${data.licenses} + "\n";
   ${renderLicenseSection(data.license)}
 
 
   ##Contributing
-  ${data.contributing}
+  ${data.contributing} + "\n";
 
   ##Tests
-  ${data.tests}
+  ${data.tests} + "\n";
 
   ##Questions
+  "You can find me at (https://github.com/" + ${data.username} + ") on Github\n";
+  "Please email me at " + ${data.email} + " if you have questions.\n"
 
 
 `;

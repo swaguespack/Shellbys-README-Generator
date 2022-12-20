@@ -1,45 +1,32 @@
-# test
+# This is my title
   
   ##Description
-  test
+  this is my project description
 
-  function renderLicenseBadge(license) {
-  let badge = "";
-
-  if(license != "None"){
-    badge = "![License Badge](https://shields.io/badge/license-" + license + "-green)";
-  }
-  return badge;
-}
+  ![License Badge](https://shields.io/badge/license-Apache-green)
 
 
   ##Table of Contents
 
 
   ##Installation
-  test
+  this is how you install
 
   ##Usage
-  test
+  this is how the project will be used
 
   ##License
   undefined
-  function renderLicenseSection(license) {
-  let licenseSection = "";
+  ## License
+See https://mit-https://www.apache.org/licenses/LICENSE-2.0.html.org/for more information on this license
 
-  if (license != "None"){
-    licenseSection += "## License\n"
-    licenseSection += "See " + renderLicenseLink(license) + "for more information on this license\n"
-  }
-  return licenseSection;
-}
 
 
   ##Contributing
-  test
+  these are my contributors
 
   ##Tests
-  test
+  this is how you test the process
 
   ##Questions
 
