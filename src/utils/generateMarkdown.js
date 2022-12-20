@@ -57,7 +57,7 @@ function generateMarkdown(data) {
   ##Description
   ${data.description}
 
-  ${renderLicenseBadge}
+  ${renderLicenseBadge(data.license)}
 
 
   ##Table of Contents
@@ -71,7 +71,7 @@ function generateMarkdown(data) {
 
   ##License
   ${data.licenses}
-  ${renderLicenseSection}
+  ${renderLicenseSection(data.license)}
 
 
   ##Contributing
