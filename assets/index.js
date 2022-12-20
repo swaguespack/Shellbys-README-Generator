@@ -2,6 +2,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown');
+const licenses = ['None','Apache','PostgreSQL','MIT','Mozilla','GPL'];
 
 
 // TODO: Create an array of questions for user input
@@ -69,7 +70,7 @@ function writeToFile(data) {
 // TODO: Create a function to initialize app
 function init() {
 
-    inquirer.createPromptModule(questions)
+   inquirer.prompt(questions)
     .then (data => writeToFile(generateMarkdown(data)))
 }
 
