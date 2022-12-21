@@ -4,7 +4,7 @@
 
 Shellbys-README-Generator project involved creating a command-line application using the Inquirer Node package to dynamically generate a README.md file based on user input.
 
-Check out the [`README.md`]()
+Check out the example [`README.md`](https://github.com/swaguespack/Shellbys-README-Generator/tree/main/src/dist) in this repo.
 
 ## Table of Contents
 * [Installation](#installation)
