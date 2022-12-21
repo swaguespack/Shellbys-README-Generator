@@ -1,11 +1,11 @@
-// TODO: Include packages needed for this application
+//Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown');
 const licenses = ['None','Apache','PostgreSQL','MIT','Mozilla','GPL'];
 
 
-// TODO: Create an array of questions for user input
+//Create an array of questions for user input
 const questions = [
     {
         type: 'input',
@@ -38,10 +38,11 @@ const questions = [
         name: 'tests',
     },
     {
-        type: 'input',
-        message: 'What licenses are required?',
+        type: 'list',
+        message: 'What license is required?',
+        choices: licenses,
         name: 'license',
-        choices: licenses
+        
     },
     {
         type: 'input',
@@ -55,7 +56,7 @@ const questions = [
     }
 ];
 
-// TODO: Create a function to write README file
+//Create a function to write README file
 function writeToFile(data) {
     const fileName = "./dist/README.md";
 
@@ -67,7 +68,7 @@ function writeToFile(data) {
     });
 }
 
-// TODO: Create a function to initialize app
+//Create a function to initialize app
 function init() {
 
    inquirer.prompt(questions)
