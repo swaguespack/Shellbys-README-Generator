@@ -1,10 +1,10 @@
-# Stormwater Forecast 
+# README Generator Project 
   
 
   ## Description
   
 
-  A forecasting tool to evaluate volumes over developed areas
+  Here's where you'll describe your project so potential users will be able to figure out the purpose.
  
 
   ![License Badge](https://shields.io/badge/license-Mozilla-green)
@@ -24,13 +24,13 @@
   ## Installation
   
 
-  Install by 
+  Here's where you can record installation steps and hot to get the development environment running.
   
 
   ## Usage
   
 
-  Use this to 
+  Here's where you can descrive how users can use your project after the installation 
   
 
   Mozilla
@@ -44,22 +44,22 @@ See https://opensource.org/licenses/MPL-2.0 for more information on this license
   ## Contributing
   
 
-  Shellby, Danny, Katherine, David
+  Here's where you can tell how othe developers contributed to the project.
   
 
   ## Tests
   
 
-  Test it by
+  Here's where you can write about any tests used in your project.
   
 
   ## Questions
   
 
-  You can find me at https://github.com/test on Github.
+  You can find me at https://github.com/swaguespack on Github.
   
 
-  Please email me at test if you have questions.
+  Please email me at shellby.miller@gmail.com if you have questions.
   
 
 
