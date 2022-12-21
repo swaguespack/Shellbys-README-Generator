@@ -1,13 +1,13 @@
-# Title of projec 
+# Project Title 
   
 
   ## Description
   
 
-  descriptive
+  descript
  
 
-  ![License Badge](https://shields.io/badge/license-MIT-green)
+  ![License Badge](https://shields.io/badge/license-Mozilla-green)
   
 
   ## Table of Contents
@@ -24,42 +24,42 @@
   ## Installation
   
 
-  installation
+  installation process
   
 
   ## Usage
   
 
-  Project used to 
+  it will be used to 
   
 
-  MIT
+  Mozilla
   
 
   ## License
-See https://mit-license.org/ for more information on this license
+See https://opensource.org/licenses/MPL-2.0 for more information on this license
 
   
 
   ## Contributing
   
 
-  people
+  Teddy, Monty, and Pikachu
   
 
   ## Tests
   
 
-  test it by
+  Test it by pressing button
   
 
   ## Questions
   
 
-  You can find me at https://github.com/get on Github.
+  You can find me at https://github.com/me on Github.
   
 
-  Please email me at the@gmail.com if you have questions.
+  Please email me at me if you have questions.
   
 
 
