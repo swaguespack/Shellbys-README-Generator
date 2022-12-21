@@ -44,7 +44,7 @@ function renderLicenseSection(license) {
 
   if (license != "None"){
     licenseSection += "## License\n"
-    licenseSection += "See " + renderLicenseLink(license) + " for more information on this license\n"
+    licenseSection += "See " + renderLicenseLink(license) + " for more information on the "+license+ " license\n"
   }
   return licenseSection;
 }
@@ -77,8 +77,6 @@ function generateMarkdown(data) {
   ## ${sections[2]}
   \n
   ${data.usage} 
-  \n
-  ${data.license}
   \n
   ${renderLicenseSection(data.license)}
   \n

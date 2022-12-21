@@ -1,13 +1,13 @@
-# README Generator Project 
+# test 
   
 
   ## Description
   
 
-  Here's where you'll describe your project so potential users will be able to figure out the purpose.
+  test
  
 
-  ![License Badge](https://shields.io/badge/license-Mozilla-green)
+  ![License Badge](https://shields.io/badge/license-PostgreSQL-green)
   
 
   ## Table of Contents
@@ -24,42 +24,39 @@
   ## Installation
   
 
-  Here's where you can record installation steps and hot to get the development environment running.
+  test
   
 
   ## Usage
   
 
-  Here's where you can descrive how users can use your project after the installation 
-  
-
-  Mozilla
+  test 
   
 
   ## License
-See https://opensource.org/licenses/MPL-2.0 for more information on this license
+See https://opensource.org/licenses/PostgreSQL for more information on the PostgreSQL license
 
   
 
   ## Contributing
   
 
-  Here's where you can tell how othe developers contributed to the project.
+  test
   
 
   ## Tests
   
 
-  Here's where you can write about any tests used in your project.
+  test
   
 
   ## Questions
   
 
-  You can find me at https://github.com/swaguespack on Github.
+  You can find me at https://github.com/test on Github.
   
 
-  Please email me at shellby.miller@gmail.com if you have questions.
+  Please email me at tset if you have questions.
   
 
 
