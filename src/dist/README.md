@@ -1,50 +1,49 @@
-# Title of Project
+# Title
   
-  ##Description
+  ## Description
   
 
-  this is the description;
+  Describe the project here
 
 
   ![License Badge](https://shields.io/badge/license-Apache-green)
 
 
-  ##Table of Contents
+  ## Table of Contents
 
 
-  ##Installation
+  ## Installation
   
 
-  installation process
+  This is the installation process
 
-  ##Usage
+  ## Usage
   
 
-  this is how it will be used ;
+  This is how the project will be use 
 
-  ##License
   
 
-  undefined
+  Apache
   ## License
-See https://mit-https://www.apache.org/licenses/LICENSE-2.0.html.org/ for more information on this license
+See https://www.apache.org/licenses/LICENSE-2.0.html.org/ for more information on this license
 
 
 
-  ##Contributing
+  ## Contributing
   
 
-  these are the contributors;
+  The contributors can be found here
 
-  ##Tests
+  ## Tests
   
 
-  this is the test process;
+  This is the test process
 
-  ##Questions
+  ## Questions
   
 
-  You can find me at https://github.com/swaguespack on Github";
+  You can find me at https://github.com/swaguespack on Github"
   
 
   Please email me at shellby.miller@gmail.com if you have questions.

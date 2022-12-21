@@ -54,41 +54,40 @@ function generateMarkdown(data) {
 
   return `# ${data.title}
   
-  ##Description
+  ## Description
   \n
   ${data.description}
 \n
   ${renderLicenseBadge(data.license)}
 
 
-  ##Table of Contents
+  ## Table of Contents
 
 
-  ##Installation
+  ## Installation
   \n
   ${data.installation}
 
-  ##Usage
+  ## Usage
   \n
   ${data.usage} 
 
-  ##License
   \n
-  ${data.licenses}
+  ${data.license}
   ${renderLicenseSection(data.license)}
 
 
-  ##Contributing
+  ## Contributing
   \n
   ${data.contributing}
 
-  ##Tests
+  ## Tests
   \n
   ${data.tests}
 
-  ##Questions
+  ## Questions
   \n
-  You can find me at https://github.com/${data.username} on Github"
+  You can find me at https://github.com/${data.username} on Github.
   \n
   Please email me at ${data.email} if you have questions.
   \n
