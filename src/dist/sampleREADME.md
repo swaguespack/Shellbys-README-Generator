@@ -1,13 +1,13 @@
-# Title 
+# Stormwater Forecast 
   
 
   ## Description
   
 
-  test
+  A forecasting tool to evaluate volumes over developed areas
  
 
-  ![License Badge](https://shields.io/badge/license-GPL-green)
+  ![License Badge](https://shields.io/badge/license-Mozilla-green)
   
 
   ## Table of Contents
@@ -24,33 +24,33 @@
   ## Installation
   
 
-  test
+  Install by 
   
 
   ## Usage
   
 
-  test 
+  Use this to 
   
 
-  GPL
+  Mozilla
   
 
   ## License
-See https://www.gnu.org/licenses/gpl-3.0.en.html for more information on this license
+See https://opensource.org/licenses/MPL-2.0 for more information on this license
 
   
 
   ## Contributing
   
 
-  test
+  Shellby, Danny, Katherine, David
   
 
   ## Tests
   
 
-  test
+  Test it by
   
 
   ## Questions
