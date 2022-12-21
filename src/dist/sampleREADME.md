@@ -1,13 +1,13 @@
-# test 
+# README Generator Project 
   
 
   ## Description
   
 
-  test
+  Here's where you'll describe your project so potential users will be able to figure out the purpose.
  
 
-  ![License Badge](https://shields.io/badge/license-PostgreSQL-green)
+  ![License Badge](https://shields.io/badge/license-MIT-green)
   
 
   ## Table of Contents
@@ -24,39 +24,39 @@
   ## Installation
   
 
-  test
+  Here's where you can record installation steps and how to get the development environment running.
   
 
   ## Usage
   
 
-  test 
+  Here's where you can describe how users can use your project after the install. 
   
 
   ## License
-See https://opensource.org/licenses/PostgreSQL for more information on the PostgreSQL license
+See https://mit-license.org/ for more information on the MIT license
 
   
 
   ## Contributing
   
 
-  test
+  Here's where you can tell how other developers contributed to the project.
   
 
   ## Tests
   
 
-  test
+  Here's where you can write about any tests used in the project.
   
 
   ## Questions
   
 
-  You can find me at https://github.com/test on Github.
+  You can find me at https://github.com/swaguespack on Github.
   
 
-  Please email me at tset if you have questions.
+  Please email me at shellby.miller@gmail.com if you have questions.
   
 
 
